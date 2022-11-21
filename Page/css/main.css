@@ -1,0 +1,74 @@
+
+.content { 
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+     height: 100%;
+   }
+  
+.contentinner {
+  display: flex;
+  justify-content: center;
+  
+  flex-flow: row wrap;
+  height: 100%;
+}
+.card{
+  height: 95%;
+}
+.container-fluid .tabcont{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  
+  border-radius: 0.375rem;
+}  
+.container-user {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative; 
+}
+.container-uac {
+    margin-top: auto;
+    border-style: outset ;
+    display:flex;/*
+    justify-content:baseline;*/
+    flex-direction: row; 
+    width: 100%;
+  
+  }
+  .btn-tab__span{
+    
+    
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
+    
+    color: var(--blue-cl-light);
+  }
+  .btn-tab:hover{
+    background-color: rgba(199, 199, 199, 0.2);
+    border-radius: 0.375rem;
+  }
+
+  #TabsUAC2{
+    background-image: var(--blue-cl-light);
+    background-size: contain;
+    border-radius: 0.375rem;
+    
+  }
+
+  .box__content___1{
+    background-color: var(--cl-sec);
+    border-radius: 0.375rem;
+  }
+  .box__content___2{
+    
+    background-color: var(--cl-sec);
+    border-radius: 0.375rem;
+  }
+  .cardcustom{
+    border-radius: 0.375rem;
+  }

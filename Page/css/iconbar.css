@@ -1,0 +1,36 @@
+
+.icon-bar {
+    width: 75px;
+    height: auto;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
+  }
+  .icon-bar__a {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    border: 0.8px groove var(--blue-cl-light);
+    
+    background-color: var(--blue-cl-dark);
+    
+    border-radius: 1rem;
+    fill: var(--blue-cl-light);
+  }
+  .icon-bar__i{
+    display: flex;
+    text-align: center;
+    color: var(--blue-cl-light);
+    fill: var(--blue-cl-light);
+  }
+  .icon-bar__text{
+    display: flex;
+    text-align: center;
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgba(199, 199, 199, 0.2);
+    border-radius: 0.375rem;
+}
+  
